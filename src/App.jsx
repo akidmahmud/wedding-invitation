@@ -185,13 +185,10 @@ export default function App() {
               className="absolute bottom-0 right-0 w-24 sm:w-32 opacity-30 pointer-events-none z-0"
             />
             <p className="mb-4 text-lg sm:text-base relative z-10">
-              This autumn, a very special and happy event is going to happen our
-              wedding reception!
+              This autumn, a very special and joyful event will take place — our wedding reception!
             </p>
             <p className="text-lg sm:text-base relative z-10">
-              We can’t imagine this day without our closest people. So, we’re
-              very excited to invite you to join and share this wonderful day
-              with us.
+              We can’t imagine this day without our closest loved ones, so we are truly excited to invite you to join us and share in this wonderful celebration.
             </p>
 
             {/* Decorative Image in top-left behind content */}
