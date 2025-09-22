@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/effect-coverflow";
+@import "tailwindcss";
+
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.cormorant-garamond {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+}
+* {
+  font-family: "cormorant-garamond";
+}
+
+.dancing-script-five-hundred {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.noto-naskh-arabic-six-hundred {
+  font-family: "Noto Naskh Arabic", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Dress Code animation */
+.dress-item {
+  opacity: 0;
+  transform: translateX(-48px);
+  transition-property: transform, opacity;
+  transition-duration: 650ms;
+  transition-timing-function: cubic-bezier(.22,1,.36,1);
+  will-change: transform, opacity;
+}
+
+/* After observer toggles this */
+.dress-item.animate-slide-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Small visual tweak for the color chips in case background is white */
+.swiper-slide > div {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.dress-item {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: all 0.7s cubic-bezier(.22,1,.36,1);
+}
+
+.dress-item.animate-slide-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
