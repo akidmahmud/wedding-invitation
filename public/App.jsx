@@ -144,7 +144,7 @@ export default function App() {
           {/* Image Frame */}
           <div className="relative inline-block rounded-xl overflow-hidden shadow-lg border-2 border-gray-300">
             <img
-              src="/wed_img_1.png"
+              src="src/assets/wed_img_1.png"
               alt="Couple"
               className="w-[280px] sm:w-[380px] md:w-[460px] h-auto object-cover"
             />
@@ -180,7 +180,7 @@ export default function App() {
           <div className="bg-[#FFFFE4] cormorant-garamond text-gray-800 p-6 sm:p-10 rounded-2xl shadow-lg relative overflow-hidden">
             {/* Decorative Image in top-left behind content */}
             <img
-              src="img 3.jpg"
+              src="src/assets/img 3.jpg"
               alt="Decoration"
               className="absolute bottom-0 right-0 w-24 sm:w-32 opacity-30 pointer-events-none z-0"
             />
@@ -196,7 +196,7 @@ export default function App() {
 
             {/* Decorative Image in top-left behind content */}
             <img
-              src="/img2.jpg"
+              src="src/assets/img2.jpg"
               alt="Decoration"
               className="absolute top-0 left-0 w-24 sm:w-32 opacity-30 pointer-events-none z-0"
             />
@@ -208,7 +208,7 @@ export default function App() {
       <section className="py-10 sm:py-16 bg-[#242831] text-center">
         <div className="relative max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-lg">
           <img
-            src="/img.jpg"
+            src="src/assets/img.jpg"
             alt="Countdown Background"
             className="absolute inset-0 w-full h-full object-cover"
           />
@@ -252,7 +252,7 @@ export default function App() {
           {/* Left Image */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="/img4.jpg"
+              src="src/assets/img4.jpg"
               alt="Couple"
               className="w-full h-48 sm:h-full object-cover"
             />
@@ -289,7 +289,7 @@ export default function App() {
           {/* Right Image */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="/img5.jpg"
+              src="src/assets/img5.jpg"
               alt="Couple"
               className="w-full h-48 sm:h-full object-cover"
             />
@@ -303,7 +303,7 @@ export default function App() {
           {/* Image */}
           <div className="rounded-2xl overflow-hidden shadow-lg mb-8">
             <img
-              src="/wed_img_2.png"
+              src="src\assets\wed_img_2.png"
               alt="Couple Event"
               className="w-full h-auto object-cover"
             />
@@ -313,13 +313,13 @@ export default function App() {
           <div className="relative bg-[#FFFFE4] text-gray-800 rounded-2xl shadow-lg p-6 sm:p-10 overflow-hidden">
             {/* Decorative Image in top-left behind content */}
             <img
-              src="/img2.jpg"
+              src="src/assets/img2.jpg"
               alt="Decoration"
               className="absolute top-0 left-0 w-24 sm:w-32 opacity-30 pointer-events-none z-0"
             />
 
             <img
-              src="/img 3.jpg"
+              src="src/assets/img 3.jpg"
               alt="Decoration"
               className="absolute bottom-0 right-0 w-24 sm:w-32 opacity-30 pointer-events-none z-0"
             />
@@ -395,12 +395,12 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {[
-              "/dress 1.png",
-              "/dress2.png",
-              "/dress3.png",
-              "/dress4.png",
-              "/dress 5.png",
-              "/dress6.png",
+              "src/assets/dress 1.png",
+              "src/assets/dress2.png",
+              "src/assets/dress3.png",
+              "src/assets/dress4.png",
+              "src/assets/dress 5.png",
+              "src/assets/dress6.png",
             ].map((src, i) => (
               <div
                 key={i}
